@@ -25,8 +25,7 @@ public class TargetSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.GetComponent<Text>().text = Score.ToString();
-        Debug.Log(Score);
+        scoreText.text = Score.ToString();
     }
 
     public GameObject SpawnTargetAtRandomPosition()
@@ -37,7 +36,6 @@ public class TargetSpawner : MonoBehaviour
         newTarget.transform.localPosition = randomPosition;
         newTarget.transform.localRotation = Quaternion.Euler(0, 90, 0);
         newTarget.transform.localScale = new Vector3(0.17f, 0.15f, 0.0001f);
-        Debug.Log(newTarget.transform.position);
 
         return newTarget;
     }
