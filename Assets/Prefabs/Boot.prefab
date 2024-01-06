@@ -95,6 +95,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boot
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b024c7205378ba41abcb277461d1c42, type: 3}
+      propertyPath: m_TagString
+      value: shoe
+      objectReference: {fileID: 0}
     - target: {fileID: 1032051018582334513, guid: 1b024c7205378ba41abcb277461d1c42, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

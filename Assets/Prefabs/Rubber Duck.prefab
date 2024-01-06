@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 724800171971355080}
   m_Layer: 0
   m_Name: Rubber Duck
-  m_TagString: Untagged
+  m_TagString: rubber_duck
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

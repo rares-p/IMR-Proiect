@@ -95,6 +95,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Remote
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ddcf46f16ba6f44f82cd7fc81a4fde1, type: 3}
+      propertyPath: m_TagString
+      value: remote
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
