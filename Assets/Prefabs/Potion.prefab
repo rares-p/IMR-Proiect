@@ -42,9 +42,9 @@ GameObject:
   - component: {fileID: 3502374293738620246}
   - component: {fileID: 519379917109922547}
   - component: {fileID: 2364884591260466745}
-  - component: {fileID: 7227900237386480336}
   - component: {fileID: 4458599067172354229}
   - component: {fileID: 840566138468013740}
+  - component: {fileID: 3532215885012740964}
   m_Layer: 0
   m_Name: Potion
   m_TagString: potion
@@ -118,29 +118,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7227900237386480336
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4310294976550428652}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.017765744
-  m_Height: 0.027760396
-  m_Direction: 1
-  m_Center: {x: 0, y: -0.0000000013969836, z: 0.017758327}
 --- !u!54 &4458599067172354229
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -320,3 +297,24 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!65 &3532215885012740964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4310294976550428652}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.027760403, y: 0.027760396, z: 0.035531487}
+  m_Center: {x: 0, y: -0.0000000013969836, z: 0.017758327}
