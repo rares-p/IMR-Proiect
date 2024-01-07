@@ -36,7 +36,7 @@ public class Weigh : MonoBehaviour
         Debug.Log(tag);
         if (_weights.ContainsKey(tag))
             _weight += _weights[tag];
-        _weightText.text = $"{_weight} KG";
+        _weightText.text = $"{_weight} G";
     }
 
     void OnCollisionExit(Collision collision)
@@ -44,6 +44,6 @@ public class Weigh : MonoBehaviour
         tag = collision.gameObject.tag;
         if (_weights.ContainsKey(tag))
             _weight -= _weights[tag];
-        _weightText.text = $"{_weight} KG";
+        _weightText.text = $"{_weight} G";
     }
 }

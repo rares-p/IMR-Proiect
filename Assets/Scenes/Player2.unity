@@ -584,6 +584,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1358266628762749669, guid: 60bd473d1e0b8f44186362b87e826eac, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358266628762749669, guid: 60bd473d1e0b8f44186362b87e826eac, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358266628762749669, guid: 60bd473d1e0b8f44186362b87e826eac, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1358266628762749669, guid: 60bd473d1e0b8f44186362b87e826eac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1215,7 +1227,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
   m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1228,6 +1240,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3502374293738620246, guid: f7ffbcd3fd88fd34fb7652d28f977d71, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502374293738620246, guid: f7ffbcd3fd88fd34fb7652d28f977d71, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3502374293738620246, guid: f7ffbcd3fd88fd34fb7652d28f977d71, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3502374293738620246, guid: f7ffbcd3fd88fd34fb7652d28f977d71, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1429,6 +1453,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4801631104933740496, guid: 936a992af6c9db34fbfe6c675cff1ac5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801631104933740496, guid: 936a992af6c9db34fbfe6c675cff1ac5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801631104933740496, guid: 936a992af6c9db34fbfe6c675cff1ac5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 4801631104933740496, guid: 936a992af6c9db34fbfe6c675cff1ac5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1927,6 +1963,18 @@ PrefabInstance:
     - target: {fileID: 1293876594676306475, guid: 919e7e88574159d4c9290d7f4af57691, type: 3}
       propertyPath: m_Name
       value: Rubber Duck
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927282550601926801, guid: 919e7e88574159d4c9290d7f4af57691, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927282550601926801, guid: 919e7e88574159d4c9290d7f4af57691, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927282550601926801, guid: 919e7e88574159d4c9290d7f4af57691, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 1927282550601926801, guid: 919e7e88574159d4c9290d7f4af57691, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2960,6 +3008,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 187257108122872934, guid: 939bfe7c8e972c446bcceffe161cf31c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 187257108122872934, guid: 939bfe7c8e972c446bcceffe161cf31c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 187257108122872934, guid: 939bfe7c8e972c446bcceffe161cf31c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 187257108122872934, guid: 939bfe7c8e972c446bcceffe161cf31c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -4293,7 +4353,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0 KG
+  m_text: 0 G
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
