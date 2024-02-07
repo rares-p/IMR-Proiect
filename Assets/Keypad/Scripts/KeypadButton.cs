@@ -18,11 +18,11 @@ namespace NavKeypad
 
         private XRBaseInteractable interactable;
 
-        void Start()
-        {
-            interactable = GetComponent<XRBaseInteractable>();
-            interactable.hoverEntered.AddListener(PressButton);
-        }
+        //void Start()
+        //{
+        //    //interactable = GetComponent<XRBaseInteractable>();
+        //    //interactable.hoverEntered.AddListener(PressButton);
+        //}
 
         public void PressButton(BaseInteractionEventArgs hover)
         {
