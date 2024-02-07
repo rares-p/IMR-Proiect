@@ -12,7 +12,9 @@ public class SetClockHands : MonoBehaviour
     private const float HourToDegree = 30F;
     private const float MinuteToDegree = 6F;
 
+    [SerializeField]
     private uint _hour = 0;
+    [SerializeField]
     private uint _minute = 0;
 
 
@@ -21,9 +23,6 @@ public class SetClockHands : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this._hour = 9;
-        this._minute = 35;
-
         this._minuteHand.transform.RotateAround(this._pivot.transform.position, Vector3.forward, this._minute * MinuteToDegree);
         this._hourHand.transform.RotateAround(this._pivot.transform.position, Vector3.forward, this._hour * HourToDegree);
     }
