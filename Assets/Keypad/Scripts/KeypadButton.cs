@@ -24,7 +24,7 @@ namespace NavKeypad
         //    //interactable.hoverEntered.AddListener(PressButton);
         //}
 
-        public void PressButton(BaseInteractionEventArgs hover)
+        public void PressButton()
         {
             if (!moving)
             {
@@ -69,6 +69,14 @@ namespace NavKeypad
             transform.localPosition = endPos;
 
             moving = false;
+        }
+
+        void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "hammer")
+            {
+                PressButton();
+            }
         }
     }
 }
