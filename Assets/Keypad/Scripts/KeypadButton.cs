@@ -18,10 +18,10 @@ namespace NavKeypad
 
         private XRBaseInteractable interactable;
 
-        //void Start()
+        //void Awake()
         //{
-        //    //interactable = GetComponent<XRBaseInteractable>();
-        //    //interactable.hoverEntered.AddListener(PressButton);
+        //    interactable = GetComponent<XRBaseInteractable>();
+        //    interactable.hoverEntered.AddListener(PressButton);
         //}
 
         public void PressButton()
@@ -32,7 +32,32 @@ namespace NavKeypad
                 StartCoroutine(MoveSmooth());
             }
         }
-        private bool moving;
+
+        void Awake()
+		{
+			// Get the XRBaseInteractable component attached to this GameObject
+			interactable = GetComponent<XRBaseInteractable>();
+
+			// Check if the component exists
+			if (interactable != null)
+			{
+				// Add a listener for the hover enter event
+				interactable.hoverEntered.AddListener(OnHoverEnter);
+                Debug.Log("added listener");
+			}
+			else
+			{
+				Debug.LogError("XRBaseInteractable component not found." + gameObject.name);
+			}
+		}
+
+		// Define the method to be called when the hover enter event is triggered
+		void OnHoverEnter(HoverEnterEventArgs args)
+		{
+			Debug.Log("Hover enter event triggered!");
+            PressButton();
+		}
+		private bool moving;
 
         private IEnumerator MoveSmooth()
         {
@@ -73,10 +98,11 @@ namespace NavKeypad
 
         void OnCollisionEnter(Collision collision)
         {
-            if (collision.gameObject.tag == "hammer")
-            {
-                PressButton();
-            }
-        }
+            //if (collision.gameObject.tag == "hammer")
+            //{
+            //    PressButton();
+            //}
+			PressButton();
+		}
     }
 }
