@@ -12,6 +12,7 @@ TagManager:
   - potion
   - remote
   - hammer
+  - pliers
   layers:
   - Default
   - TransparentFX
