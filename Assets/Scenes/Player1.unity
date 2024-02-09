@@ -2754,6 +2754,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cbd9741a4578b74c92d888d4906e21f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnWireCut:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073840015}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &733255534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5953,6 +5968,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba32f4e736909f544acc27b8f306ecec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnWireCut:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073840015}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!65 &1153998329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6152,6 +6182,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cbd9741a4578b74c92d888d4906e21f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnWireCut:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073840015}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1184057048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8187,7 +8232,7 @@ GameObject:
   - component: {fileID: 1597066345}
   - component: {fileID: 1597066344}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8224,7 +8269,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b25cc142d95946448b6c41bfad4e5bd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Timer: 500
+  Timer: 2
+  OnTimerEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073840015}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1597066345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8471,6 +8531,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cbd9741a4578b74c92d888d4906e21f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnWireCut:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1073840015}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: GameEnded
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!65 &1698323544
 BoxCollider:
   m_ObjectHideFlags: 0

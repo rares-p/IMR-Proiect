@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,13 +13,8 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void CheckGameState()
-    {
-
-    }
-
     public void GameEnded(bool win)
     {
-
+        SceneManager.LoadScene(win ? "WonScene" : "LostScene");
     }
 }
